@@ -25,21 +25,21 @@ source venv/bin/activate     # Mac/Linux
 
 ### python training.py
 What happens:
-        Loads Humanoid-v4 environment
-        Builds neural policy
-        Runs REINFORCE training
-        Prints rewards every 10 episodes
-        Saves trained weights → **model**
-        Displays reward curve plot
-        Training is compute heavy — may take time.
+       - Loads Humanoid-v4 environment
+       - Builds neural policy
+       - Runs REINFORCE training
+       - Prints rewards every 10 episodes
+       - Saves trained weights → **model**
+       - Displays reward curve plot
+       - Training is compute heavy — may take time.
 
 ### python check.py
 This will:
-        Load saved model
-        Open MuJoCo humanoid renderer
-        Run learned policy
-        Show walking behavior
-        Rendering uses deterministic mean actions for stability.
+       - Load saved model
+       - Open MuJoCo humanoid renderer
+       - Run learned policy
+       - Show walking behavior
+       - Rendering uses deterministic mean actions for stability.
 
 
 # (note::::.............................)
