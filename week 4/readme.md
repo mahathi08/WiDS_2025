@@ -17,7 +17,7 @@ It explains visually :
 
 python -m venv venv
 venv\Scripts\activate        # Windows
-# OR
+(OR)
 source venv/bin/activate     # Mac/Linux
 
 pip install --upgrade pip
