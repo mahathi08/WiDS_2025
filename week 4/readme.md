@@ -15,15 +15,15 @@ It explains visually :
 
 # (Steps to follow::::::::::::::::::::::::)
 
-# python -m venv venv
+### python -m venv venv
 venv\Scripts\activate        # Windows
 (OR)
 source venv/bin/activate     # Mac/Linux
 
-# pip install --upgrade pip
-# pip install gymnasium[mujoco] torch numpy matplotlib
+### pip install --upgrade pip
+### pip install gymnasium[mujoco] torch numpy matplotlib
 
-# python training.py
+### python training.py
 What happens:
         Loads Humanoid-v4 environment
         Builds neural policy
@@ -33,7 +33,7 @@ What happens:
         Displays reward curve plot
         Training is compute heavy — may take time.
 
-# python check.py
+### python check.py
 This will:
         Load saved model
         Open MuJoCo humanoid renderer
@@ -42,5 +42,5 @@ This will:
         Rendering uses deterministic mean actions for stability.
 
 
-## (note::::.............................)
-    While running training.py with episodes=500 ,it is largely time taking....To just check this part you may reduce it to lower number.After it gives the file ""model"" you run check.py to visualize the movement of humanoid.
+# (note::::.............................)
+While running training.py with episodes=500 ,it is largely time taking....To just check this part you may reduce it to lower number.After it gives the file ""model"" you run check.py to visualize the movement of humanoid.
