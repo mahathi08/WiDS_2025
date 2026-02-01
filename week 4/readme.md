@@ -15,15 +15,15 @@ It explains visually :
 
 # (Steps to follow::::::::::::::::::::::::)
 
-python -m venv venv
+# python -m venv venv
 venv\Scripts\activate        # Windows
 (OR)
 source venv/bin/activate     # Mac/Linux
 
-pip install --upgrade pip
-pip install gymnasium[mujoco] torch numpy matplotlib
+# pip install --upgrade pip
+# pip install gymnasium[mujoco] torch numpy matplotlib
 
-python training.py
+# python training.py
 What happens:
         Loads Humanoid-v4 environment
         Builds neural policy
@@ -33,8 +33,8 @@ What happens:
         Displays reward curve plot
         Training is compute heavy — may take time.
 
-python check.py
-        This will:
+# python check.py
+This will:
         Load saved model
         Open MuJoCo humanoid renderer
         Run learned policy
