@@ -42,5 +42,5 @@ This will:
         Rendering uses deterministic mean actions for stability.
 
 
-note::::.............................
+## (note::::.............................)
     While running training.py with episodes=500 ,it is largely time taking....To just check this part you may reduce it to lower number.After it gives the file ""model"" you run check.py to visualize the movement of humanoid.
